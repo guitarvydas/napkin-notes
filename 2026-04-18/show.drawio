@@ -1,0 +1,115 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="Lwgxd-V41GQsrWAvt2tl">
+    <mxGraphModel dx="1106" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ovT1eruksH2t0KO23g9-3" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="5ovT1eruksH2t0KO23g9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;verticalAlign=top;" value="time-sharing" vertex="1">
+          <mxGeometry height="200" width="120" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;verticalAlign=top;" value="rebranded as &quot;multi-tasking&quot;" vertex="1">
+          <mxGeometry height="300" width="210" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-6" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="5ovT1eruksH2t0KO23g9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="relies on tight coupling and memory sharing" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-8" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="5ovT1eruksH2t0KO23g9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="lots of unexpected gotchas, e.g. &quot;thread safety&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-10" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="multi-core invented to keep tightly coupled memory sharing&amp;nbsp; in play" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-12" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-30" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;dashed=1;endFill=0;" target="5ovT1eruksH2t0KO23g9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="multi-core kludged to decouple memory sharing through addition of L1 caches" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-14" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-32" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="distributed programming - more gotchas, e.g. cache coherency" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" value="Dead End - distributed machines across large distances" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="synchronous / sequential" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="invented for single-thread / single-CPU concerns" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="remains synchronous / sequential" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-20" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="fundamentally single-CPU but fools programmers into thinking they have asynch parallelism" vertex="1">
+          <mxGeometry height="80" width="130" x="370" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-22" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;dashed=1;endFill=0;" target="5ovT1eruksH2t0KO23g9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-23" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;dashed=1;endFill=0;" target="5ovT1eruksH2t0KO23g9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-26" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.017;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;entryPerimeter=0;dashed=1;endFill=0;" target="5ovT1eruksH2t0KO23g9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&quot;fake&quot; parallelism, not physical parallelism" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&quot;fake&quot; parallelism is OK for development systems (save $&#39;s on dev hardware, by sharing single CPU across many programs)" vertex="1">
+          <mxGeometry height="80" width="150" x="490" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-28" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="invention of &quot;async&quot; functions - kludge to treat functions as being reactive" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-41" edge="1" parent="1" source="5ovT1eruksH2t0KO23g9-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5ovT1eruksH2t0KO23g9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="L2, L3, ... caches still imply tightly coupled memory sharing" vertex="1">
+          <mxGeometry height="60" width="120" x="930" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="synchronous PLs are by definition are exact opposite of asynchronous PLs" vertex="1">
+          <mxGeometry height="60" width="140" x="980" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="the best you can do with a synchronous PL is to flag certain sync threads as being reactive (&quot;async&quot;) and construct async systems in essentially an assembler-like manner" vertex="1">
+          <mxGeometry height="80" width="210" x="660" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="good structuring of software architecture requires totally isolated software units (black boxes with well-defined I/O ports, data encapsulation is not enough) ; we&#39;ve already experienced the gotchas of trying to build ethernet stacks using the synchronous / sequential paradigm" vertex="1">
+          <mxGeometry height="100" width="300" x="550" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&quot;referential transparency&quot; on physical hardware is not total isolation due to CALL/RETURN and synchronous control flows" vertex="1">
+          <mxGeometry height="60" width="260" x="570" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="5ovT1eruksH2t0KO23g9-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;opacity=50;textOpacity=50;" value="need message passing instead of implicit sharing of memory" vertex="1">
+          <mxGeometry height="60" width="140" x="1090" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
