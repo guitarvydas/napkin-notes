@@ -1,0 +1,3 @@
+> Nice. I can definitely understand that drawing better than the code! Now can it go the other way, like you said taking someone elses code and making a drawing?
+
+It's not magical. You still have to think. When you dissect someone else's code, you can capture your understanding on the back of a napkin. The interesting part is whether you can regenerate the same code from your sketch...
