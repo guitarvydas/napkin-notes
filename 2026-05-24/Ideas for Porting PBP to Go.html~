@@ -1,0 +1,58 @@
+<h1 id="ideas-for-porting-pbp-to-go">Ideas for Porting PBP to Go</h1>
+<p>I’ve written the PBP kernel in a pseudo-language and generate Python,
+JS and CL. I think that if you were to point your LLM at  - <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.rt">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.rt</a>,
+- <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/stock.rt">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/stock.rt</a> and
+- <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/jit.rt">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/jit.rt</a> </p>
+<p>and gave it the Python versions  - <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py</a>, 
+- <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py</a> and 
+- <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/0d.py</a>,</p>
+<p>it might be able to infer the Go version.</p>
+<p>Maybe you also need to give it - the Ohm grammar file <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/emit.ohm">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/emit.ohm</a>
+and - the Python rewrite rules <a
+href="https://github.com/guitarvydas/pbp-dev/blob/main/kernel/emit.ohm">https://github.com/guitarvydas/pbp-dev/blob/main/kernel/emit.ohm</a></p>
+<p>I suspect that using words like “concurrent” and “process” and
+“thread” might get an LLM to generate convoluted / wrong code. 0D.rt
+implements its own form of multi-processing from scratch - don’t let an
+LLM use preconceived ideas about what threads are. Threading needs only
+10’s of lines of code - all existing thread libraries that I know of
+(including Go) have turned this into a behemoth, steaming pile of
+complexity.</p>
+<p>If you do need to use words like these, tell the LLM to use a mutual
+multi-tasking model (aka “green threads”) with NO shared memory. A lot
+of the cancerous complexity growth has befallen us because of the use of
+implicit memory sharing (starting with the concept of “thread safety”).
+When you strip the underlying memory sharing assumption out, the code
+becomes orders of magnitude simpler. The first kernel I studied was 1/2
+page of assembler code.</p>
+<h1 id="see-also">See Also</h1>
+<p><em>Email</em>: <a
+href="mailto:ptcomputingsimplicity@gmail.com">ptcomputingsimplicity@gmail.com</a> 
+<em>Substack</em>: <a
+href="http://paultarvydas.substack.com">paultarvydas.substack.com</a>
+<em>Videos</em>: <a
+href="https://www.youtube.com/@programmingsimplicity2980">https://www.youtube.com/<span
+class="citation"
+data-cites="programmingsimplicity2980">@programmingsimplicity2980</span></a>
+<em>Discord</em>: <a
+href="https://discord.gg/65YZUh6Jpq">https://discord.gg/65YZUh6Jpq</a> 
+<em>Leanpub</em>: <a
+href="https://leanpub.com/u/paul-tarvydas">https://leanpub.com/u/paul-tarvydas</a>
+<em>Twitter</em>: <span class="citation"
+data-cites="paul_tarvydas">@paul_tarvydas</span> <em>Bluesky:</em> <span
+class="citation"
+data-cites="paultarvydas.bsky.social">@paultarvydas.bsky.social</span>
+<em>Mastodon:</em> <span class="citation"
+data-cites="paultarvydas">@paultarvydas</span> <em>(earlier)</em>
+<em>Blog:</em> <a
+href="http://guitarvydas.github.io">guitarvydas.github.io</a>
+<em>References:</em> <a
+href="https://guitarvydas.github.io/2024/01/06/References.html">https://guitarvydas.github.io/2024/01/06/References.html</a></p>
+<p><em>Paid subscriptions are a voluntary way to support this
+work.</em></p>

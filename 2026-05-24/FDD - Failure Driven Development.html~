@@ -1,0 +1,42 @@
+<p>We can now stop worrying about “code” and worry a lot more about
+“design”. That’s the main point of Failure Driven Development.</p>
+<p>PBP is one of the tools for FDD - snap parts together like LEGO
+blocks and see if you like the result. If not, knock it all down and
+start all over again. Repeat numerous times.</p>
+<p>I’ve been using Claude to argue with me. To be a foil that espouses
+the “functional approach” to writing code. </p>
+<p>The biggest fall-out of these brain-storming sessions is the
+observation that PBP goes a step further than Erlang by providing
+“topology blindness”. It is a core term in the PBP/0D vocabulary,
+describing the property that components do not know their own neighbors
+and that wiring is controlled by the parent container rather than by the
+components themselves.</p>
+<p>To implement topology blindness, it is more convenient to roll your
+own multi-tasking kernel, instead of relying on existing thread
+libraries, and, you need to create a system of two-tier “parts” that I
+call Container parts and Leaf parts.</p>
+<h1 id="see-also">See Also</h1>
+<p><em>Email</em>: <a
+href="mailto:ptcomputingsimplicity@gmail.com">ptcomputingsimplicity@gmail.com</a> 
+<em>Substack</em>: <a
+href="http://paultarvydas.substack.com">paultarvydas.substack.com</a>
+<em>Videos</em>: <a
+href="https://www.youtube.com/@programmingsimplicity2980">https://www.youtube.com/<span
+class="citation"
+data-cites="programmingsimplicity2980">@programmingsimplicity2980</span></a>
+<em>Discord</em>: <a
+href="https://discord.gg/65YZUh6Jpq">https://discord.gg/65YZUh6Jpq</a> 
+<em>Leanpub</em>: <a
+href="https://leanpub.com/u/paul-tarvydas">https://leanpub.com/u/paul-tarvydas</a>
+<em>Twitter</em>: <span class="citation"
+data-cites="paul_tarvydas">@paul_tarvydas</span> <em>Bluesky:</em> <span
+class="citation"
+data-cites="paultarvydas.bsky.social">@paultarvydas.bsky.social</span>
+<em>Mastodon:</em> <span class="citation"
+data-cites="paultarvydas">@paultarvydas</span> <em>(earlier)</em>
+<em>Blog:</em> <a
+href="http://guitarvydas.github.io">guitarvydas.github.io</a>
+<em>References:</em> <a
+href="https://guitarvydas.github.io/2024/01/06/References.html">https://guitarvydas.github.io/2024/01/06/References.html</a></p>
+<p><em>Paid subscriptions are a voluntary way to support this
+work.</em></p>
