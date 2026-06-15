@@ -46,12 +46,15 @@ The decentralized model takes the hardware at face value. Each node has its own 
 #### Smart Apps
 
 ![](centralized-and-decentralized-smart-app.drawio.png)
+
 #### Smart Devices
 
 ![](centralized-and-decentralized-smart-device.drawio.png)
+
 #### Decentralized Model
 
 ![](centralized-and-decentralized-decentralized.drawio.png)
+
 #### Consequences
 The consequences are significant. Thread safety disappears as a concern. There is nothing to share. The operating system's job of mediating access to shared resources shrinks, or vanishes entirely. Applications own their CPU. They are not slowed by context-switching or contention.
 
@@ -70,9 +73,11 @@ A node knows only its direct children. It does not know what those children do i
 
 #### Request Flow
 ![](centralized-and-decentralized-request-flow.drawio.png)
+
 #### Summary Flow
 
 ![](centralized-and-decentralized-summary-flow.drawio.png)
+
 ### The development environment needs to change too
 
 One honest complication: software development happens on single machines. A developer writing a decentralized application is still sitting in front of one CPU with shared memory.
@@ -87,7 +92,6 @@ Our current workflow makes this worse in a specific way. We write single synchro
 
 That said, the existing body of synchronous software is not worthless. Code written for a single synchronous node can be wrapped and treated as a leaf component in a larger asynchronous scheme. The wrapper handles the message boundary. The interior of the component stays exactly as it was. This gives us a migration path. We do not need to discard what works. We need to stop using it as the architectural model for the whole system.
 
-
 ### The model is not hypothetical
 
 Electrical engineers have run this architecture for as long as there have been chips. VHDL synthesis describes hardware components with private state communicating through ports. Schematics are topology diagrams, not shared-memory diagrams. EEs do not worry about thread safety. Their components run in parallel because the hardware runs in parallel.
@@ -96,7 +100,7 @@ Software inherited the centralized model from economic necessity. The necessity 
 
 ## See Also
 
-_Email_: [ptcomputingsimplicity@gmail.com](mailto:ptcomputingsimplicity@gmail.com\
+_Email_: [ptcomputingsimplicity@gmail.com](mailto:ptcomputingsimplicity@gmail.com)\
 _Substack_: [paultarvydas.s. bstack.com](http://paultarvydas.substack.com/)\
 _Videos_: [https://www.  youtube.com/@programmingsimplicity2980](https://www.youtube.com/@programmingsimplicity2980)\
 _Discord_: [https://discord.gg/65YZUh6J.  q](https://discord.gg/65YZUh6Jpq)\
