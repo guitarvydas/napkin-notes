@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2. Repeating Architectural Patterns</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="repeating-architectural-patterns">Repeating Architectural
+Patterns</h1>
+<p>As we build a PBP version that mimics the original <a
+href="https://www.reddit.com/r/EngineeringPorn/comments/ul49zt/the_original_pong_video_game_had_no_code_and_was/">Atari
+Pong schematic</a>, I doubt that we will actually see strictly repeating
+high-level patterns emerge. I think that the strictly repeating patterns
+are embodied in the ICs used in the original circuit. Combinations of
+ICs on the schematic are used to create architectural chunks that don’t
+repeat verbatim.</p>
+<p>The design of ICs is about as far as we can take the idea of strict,
+repeatable patterns. The design of the Pong schematic uses low-level
+repeatable patterns to build up higher-level chunks of architecture.</p>
+<p>PBP is an attempt to allow expressing such chunks in a readable
+manner. We should be able to reuse low-level parts to build up
+customizable medium-level parts that are used to build up specific parts
+for a specific project.</p>
+<p>Seasoned “architects” may recognize such high-level patterns and
+reuse them as customizable ideas that can be used (in a modified way) in
+other architectures.</p>
+<p>We already see this kind of thing happening in electronics and other
+fields of engineering (e.g. civil engineering and bridge design - not
+all bridges are designed the same way, but sometimes general
+architectural features are reused.</p>
+<p>When I showed the Pong schematic to someone versed in electronics
+design, they “immediately” saw architectural patterns in the design, but
+with tweaks. For example, a comment was that the scoring section used a
+BCD counter IC in a unique way to keep score in the Pong game. The
+person saw a low-level pattern used in a custom manner and that
+suggested that he was looking at the scoring sub-circuit.</p>
+<p>I guess one might say that PBP is a way to build up custom Designs
+using very low level patterns, while leaving the high-level Design
+readable. Currently, electronics schematics are filled with
+implementation details that obfuscate the design to anyone but seasoned
+architected.</p>
+<p>Likewise with the way we write code. The code consists of a bunch of
+details that don’t tend to reveal the over-lying Design, unless the
+programmer(s) was careful to use common idioms and unless the reader is
+a seasoned programmer who rapidly recognizes the use of such idioms.</p>
+<p>The colourized version of the Pong schematic was probably done by a
+seasoned electronics person. The person recognized areas within the
+circuit that were aimed at solving specific sub-problems, then grouped
+such areas together by colouring them. People who aren’t versed in
+reading schematics can understand the colourized groups without needing
+to understand the actual details of the electronics inside each
+group.</p>
+</body>
+</html>
