@@ -10,5 +10,6 @@ _Bluesky:_ @paultarvydas.bsky.social\
 _Mastodon:_ @paultarvydas\
 _(earlier) Blog:_ [guitarvydas.github.io](http://guitarvydas.github.io/)\
 _References:_ [https://guitarvydas.github.io/2024/01/06/References.html](https://guitarvydas.github.io/2024/01/06/References.html)\
+_Notes and Back of the Napkin Scribbles_: [https://github.com/guitarvydas/napkin-notes](https://github.com/guitarvydas/napkin-notes])\
 
 _Paid subscriptions are a voluntary way to support this work._
