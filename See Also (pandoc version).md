@@ -1,10 +1,10 @@
 # See Also
 
 _Email_: [ptcomputingsimplicity@gmail.com](mailto:ptcomputingsimplicity@gmail.com)\
-_Substack_: [paultarvydas.s. bstack.com](http://paultarvydas.substack.com/)\
-_Videos_: [https://www.  youtube.com/@programmingsimplicity2980](https://www.youtube.com/@programmingsimplicity2980)\
-_Discord_: [https://discord.gg/65YZUh6J.  q](https://discord.gg/65YZUh6Jpq)\
-_Leanpub_: [https:. /leanpub.com/u/paul-tarvydas](https://leanpub.com/u/paul-tarvydas)\
+_Substack_: [paultarvydas.substack.com](http://paultarvydas.substack.com/)\
+_Videos_: [https://www. youtube.com/@programmingsimplicity2980](https://www.youtube.com/@programmingsimplicity2980)\
+_Discord_: [https://discord.gg/65YZUh6Jpq](https://discord.gg/65YZUh6Jpq)\
+_Leanpub_: [https://leanpub.com/u/paul-tarvydas](https://leanpub.com/u/paul-tarvydas)\
 _Twitter_: @paul_tarvydas\
 _Bluesky:_ @paultarvydas.bsky.social\
 _Mastodon:_ @paultarvydas\
