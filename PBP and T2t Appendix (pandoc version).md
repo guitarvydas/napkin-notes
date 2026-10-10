@@ -7,6 +7,17 @@ T2T is one of the tools in the PBP toolkit — once you install PBP, you have ac
 
 RWR is part of T2T. This is the [specification for RWR](https://github.com/guitarvydas/pbp/blob/main/t2td/doc/rwr/RWR%20Spec.pdf)
 
+RWR is a little language (a tiny DSL) for string manipulation and rewriting text into other text. RWR is not Turing complete, but, the combination of OhmJS and RWR into a toolset I call T2T ("text to text") is a powerful text matching and text rewriting tool.
+
+RWR needs only a few operations
+- create new text by inserting character constants
+- create new text by inserting text interpolated by tree-walking the parameters passed in from the OhmJS parser
+- call Javascript support routines that return strings
+- push, pop and query user-defined stacks, much like Lisp's dynamically scoped variables
+	- this allows information to be passed _down_ the parse tree when tree-walking
+	- for example, if a rule needs to include a string from higher up in the tree, the string can be constructed (using rewrite operators) and pushed onto a parameter stack
+	- this is like pass-through parameters supplied to every function, except without the associated syntactic noise
+- string creation is recursive - string operators can take parameters that are themselves created strings
 # Appendix - PBP
 [PBP tools](https://github.com/guitarvydas/pbp)
 
