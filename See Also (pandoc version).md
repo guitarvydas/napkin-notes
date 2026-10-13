@@ -4,12 +4,13 @@ _Email_: [ptcomputingsimplicity@gmail.com](mailto:ptcomputingsimplicity@gmail.co
 _Substack_: [paultarvydas.substack.com](http://paultarvydas.substack.com/)\
 _Videos_: [https://www. youtube.com/@programmingsimplicity2980](https://www.youtube.com/@programmingsimplicity2980)\
 _Discord_: [https://discord.gg/65YZUh6Jpq](https://discord.gg/65YZUh6Jpq)\
-_Leanpub_: [https://leanpub.com/u/paul-tarvydas](https://leanpub.com/u/paul-tarvydas)\
 _Twitter_: @paul_tarvydas\
 _Bluesky:_ @paultarvydas.bsky.social\
 _Mastodon:_ @paultarvydas\
 _(earlier) Blog:_ [guitarvydas.github.io](http://guitarvydas.github.io/)\
+_another earlier Blog (raw form):_ https://github.com/guitarvydas/missing-blogs\
 _References:_ [https://guitarvydas.github.io/2024/01/06/References.html](https://guitarvydas.github.io/2024/01/06/References.html)\
 _Notes and Back of the Napkin Scribbles_: [https://github.com/guitarvydas/napkin-notes](https://github.com/guitarvydas/napkin-notes])\
+_books: WIP Leanpub_: [https://leanpub.com/u/paul-tarvydas](https://leanpub.com/u/paul-tarvydas)\
 
 _Paid subscriptions are a voluntary way to support this work._
