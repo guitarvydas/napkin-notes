@@ -6,3 +6,5 @@
 [We Lost Something: 1970s REPLs Were Better Than Modern Development Environments](https://programmingsimplicity.substack.com/p/we-lost-something-1970s-repls-were)\
 [Failure Driven Development WIP book](https://leanpub.com/failuredrivendevelopment) - I'm chipping away at writing a book on FDD, in which programming is thought of as two parts (1) iterative Design Engineering (2)Production Engineering. The book is in early draft form. Comments welcome.\
 [Call/Return Spaghetti](https://guitarvydas.github.io/2020/12/09/CALL-RETURN-Spaghetti.html)
+[Atari Pong](https://www.reddit.com/r/EngineeringPorn/comments/ul49zt/the_original_pong_video_game_had_no_code_and_was/)
+[William Byrd on "The Most Beautiful Program Ever Written" (PWL NYC)](https://www.youtube.com/watch?v=OyfBQmvr2Hc)
